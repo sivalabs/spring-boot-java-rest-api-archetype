@@ -4,7 +4,7 @@
 
     <groupId>io.github.sivalabs.maven.archetypes</groupId>
     <artifactId>spring-boot-java-rest-api-archetype</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>maven-archetype</packaging>
 
     <name>spring-boot-java-rest-api-archetype</name>
@@ -41,7 +41,7 @@
         <connection>scm:git:https://github.com/sivalabs/spring-boot-java-rest-api-archetype.git</connection>
         <developerConnection>scm:git:https://github.com/sivalabs/spring-boot-java-rest-api-archetype.git</developerConnection>
         <url>https://github.com/sivalabs/spring-boot-java-rest-api-archetype</url>
-        <tag>HEAD</tag>
+        <tag>spring-boot-java-rest-api-archetype-0.0.2</tag>
     </scm>
 
     <distributionManagement>
