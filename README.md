@@ -42,11 +42,11 @@ Create or update archetypes and set version to SNAPSHOT (ex: 1.0.0-SNAPSHOT)
 
 Deploy SNAPSHOT version to https://oss.sonatype.org/content/repositories/snapshots/
 
-`spring-boot-java-rest-api-archetype> mvn clean deploy`
+`spring-boot-java-rest-api-archetype> ./mvnw clean deploy -P release`
 
 Deploy release version to Maven Central
 
 ```
-spring-boot-java-rest-api-archetype> mvn release:clean release:prepare
-spring-boot-java-rest-api-archetype> mvn release:perform`
+spring-boot-java-rest-api-archetype> ./mvnw release:clean release:prepare -P release
+spring-boot-java-rest-api-archetype> ./mvnw release:perform -P release
 ```
